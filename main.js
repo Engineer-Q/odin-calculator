@@ -21,7 +21,7 @@ numbers.forEach((number)=>{
         currentScreen.textContent = currentValue
     })
 })
-
+console.log("hi") 
 operators.forEach((op)=>op.addEventListener("click", function(e){
     handleOperator(e.target.textContent)
     previousScreen.textContent = previousValue + " " + operator;
